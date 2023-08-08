@@ -14,3 +14,10 @@ print(name[2])
 
 snacks = ['Potato chips', 'Peanuts', 'Skittles', 'Pringles']
 print(snacks[1], snacks[3])
+
+# Challenge
+
+greeting = input('Good morning! What is your name? ')
+food = input('What food do you love? ')
+hobby = input('What is your favorite hobby? ')
+print(f'Hello {greeting}! Your favorite food is {food} and your favorite hobby is {hobby}.')
