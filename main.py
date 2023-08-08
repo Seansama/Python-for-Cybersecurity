@@ -1,16 +1,16 @@
-# This is a sample Python script.
+# Strings and Variables
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# print("Hello, World! \nHello World 2!")
+# print("Hello" + " " + "World")
 
+# name = 'Shaun'
+# print(name)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# name = input('What is your name? ')
+# print(f'Hello, {name}!')
 
+name = 'Shaun'
+print(name[2])
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+snacks = ['Potato chips', 'Peanuts', 'Skittles', 'Pringles']
+print(snacks[1], snacks[3])
