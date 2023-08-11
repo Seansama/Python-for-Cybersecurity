@@ -2,7 +2,7 @@ myList = [10, 20, 30, 'string', True, 8.97]
 
 print(myList[3])
 # Slice of 3 values from index 0
-print(myList[:3])
+print(myList[:4])
 # Slice of 2 values starting from the current index to the end of the array
 print(myList[1:])
 
