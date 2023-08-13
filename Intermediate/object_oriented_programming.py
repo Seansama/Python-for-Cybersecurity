@@ -6,10 +6,10 @@ class Person:
         self.name = name
         self.age = age
         self.height = height
-        Person.amount += 1
+        Person.amount += 1  # Increase amount counter by one every time an object instance is initialized
 
     def __del__(self):  # Destructor function
-        Person.amount -= 1
+        Person.amount -= 1  # Reduce amount counter by one every time an object instance is deleted
         print('Object deleted')
 
     def __str__(self):  # Print object as string
@@ -26,4 +26,3 @@ print(person1.name)
 print(person1)
 person2 = Person('Shaun', 21, 185)
 print(Person.amount)
-
