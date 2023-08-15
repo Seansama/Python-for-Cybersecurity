@@ -19,3 +19,8 @@ while on:
     print(i)
     if var == 'N':
         on = False
+
+k = 0
+while k < 100:
+    print('I am Sorry\n')
+    k += 1
